@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-*Under Consturction, stay tuned*
+*Under Consturction, stay tuned*.

@@ -32,7 +32,7 @@ Following are some common vulnerablities we face online.
 * Hackers use the usernames and passwords leaked by data breach for login to our services. This is a very big vulnerability if we are reusing passwords.
 * Some websites may install malware or use our system's to mine cryptocurrencies.
 * Browser extensions we use can read and track every activity we do online. It is dangerous to use unverified closed source extensions.
-* Internet service providers (like Airtel, Jio) track our online activities. They might sell our data to shady marketers and corporations to use against us.
+* Internet service providers track our online activities. They might sell our data to shady marketers and corporations to use against us.
 * Closed source browser like chrome may track all our activities and report to google.
 * Governments may put you under large scale surveillance programs.  These programs can disproportionally affect certain social groups based on ethnicity and religion.
 * Unethical activities like targeted election campaigns can use our leaked online personal data. 

@@ -54,6 +54,8 @@ Staying 100% private online is not that easy. Even using services like tor wonâ€
 
 ### *Privacy Tools*
 
+Following are some of the tools I recommend to start with. Do enough research before using them.
+
 * Use a VPN, avoid free ones. Do thorough research before buying one.
 * Use Bitwarden to generate and store all your complex passwords. `(Free and open source)`
 * Install uBlock Origin extension to your browser for filtering ads.`(Free and open source)`

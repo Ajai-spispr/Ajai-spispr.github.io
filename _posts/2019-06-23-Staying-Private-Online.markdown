@@ -11,25 +11,25 @@ Data leak, big-tech scandals, hacking and online surveillance are hot topics in 
 
 During our discussions on privacy, we often repeat the argument “I don’t have anything to hide”. This argument is misleading. We need privacy in our online transactions for the same reason that “Bathroom needs a door”. Bathing is normal, legal and acceptable but why do we prefer doing it in closed personal space instead of a street corner? The answer is we need our privacy. In the same way, we need to hide certain aspects of our online life from other's prying eyes. 
 
-> Bathing is normal, legal and acceptable but why do we prefer doing it in closed personal space instead of a street corner?.
+> Bathing is normal, legal and acceptable but why do we prefer doing it in closed personal space instead of a street corner?
 
 Hereafter, if someone claims they have nothing to hide, ask their google username and password.  We can have loads of fun by touring their online activity history.
 
 ## Whom to trust
 
-I am not saying, all online services surveillance us or steal our data. There are lots of open source and privacy-respecting services available online. But, the real issue lies in figuring out whom to trust. Every week on average we use hundreds of online services and in a year it scales to several thousand. It is overwhelming for us to read through the privacy policies of all the services we use. Often privacy policy documents are confusing and misleading.
+I am not saying, all online services surveillance us or steal our data. There are lots of open source and privacy-respecting services available online. But, the real issue lies in figuring out whom to trust. Every week on average we use hundreds of online services and in a year,  it scales to several thousand. It is overwhelming for us to read through the privacy policies of all the services we use. Often privacy policy documents are confusing and misleading.
 
 > It is overwhelming for us to read through the privacy policies of all the services we use.
 
-We also overlook the third party trackers and cookies used by online services. Tracing their origin and intentions are not that straightforward for normal users. Naturally, it is safe to stay private as much as possible.
+We also overlook the third-party trackers and cookies used by online services. Tracing their origin and intentions are not that straightforward for normal users. Naturally, it is safe to stay private as much as possible.
 
-## Common Vulnerablities
+## Common Vulnerabilities
 
-Following are some common vulnerablities we face online.
+Following are some common vulnerabilities we face online.
 
-* Other users in your WIFI network can easily hack the network and access your private data.  So, it is dangerous to do any bank transactions in public WiFi without a VPN.
+* Other users in your WIFI network can easily hack the network and access your private data.  So, it is dangerous to do any bank transactions in public WIFI without a VPN.
 * Most of the websites we visit allow third-party cookies and scripts. They track activity and usage patterns and sell the data for targeted ad campaigns. 
-* Hackers use the usernames and passwords leaked by data breachs to access our services. This is a very big vulnerability if we are reusing passwords.
+* Hackers use the usernames and passwords leaked by data breaches to access our services. This is a very big vulnerability if we are reusing passwords.
 * Some websites may install malware or use our devices to mine cryptocurrencies.
 * Browser extensions we use can read and track every activity we do online. It is dangerous to use unverified closed source extensions.
 * Internet service providers track our online activities. They might sell our data to shady marketers and corporations to use against us.
@@ -54,12 +54,12 @@ Staying 100% private online is not that easy. Even using services like Tor won�
 
 ### *Privacy Tools*
 
-Following are some of the tools I recommend to start with. Do enough research before using them.
+Following are some of the tools I recommend starting with. Do enough research before using them.
 
 * Use a VPN, avoid free ones. Do thorough research before buying one.
 * Use Bitwarden to generate and store all your complex passwords. `(Free and open source)`
-* Install uBlock Origin extension to your browser for filtering ads.`(Free and open source)`
-* Install Privacy Badger extension to your browser for stopping trackers. `(Free and open source)`
+* Install uBlock Origin extension to your browser for filtering ads. `(Free and open source)`
+* Install Privacy Badger extension to your browser for stopping trackers. ` (Free and open source)`
 
 ## After this
 

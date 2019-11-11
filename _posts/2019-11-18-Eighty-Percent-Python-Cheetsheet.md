@@ -194,36 +194,149 @@ def function_without_return_value(param):
     print("param for this function is " + param)
 ~~~~
 *With return type*
+~~~~
 def function_with_return_type(param):
     return param *2
+~~~~
 ## Intendation
-//todo
+~~~~
+block
+    block 2
+    statement in block 2
+        block3
+            block 4
+        statement in block 3
+~~~~
+*In other languages*
 
+~~~~
+function {
+    if block{
+
+    }else if block{
+
+    }else{
+        loop{
+
+        }
+    }
+}
+~~~~
+
+*In python*
+~~~~
+def fn_2_demonstarte_intendation(love_for_python):
+    print('one stone two mango philosophy')
+    if love_for_python < 10:
+        print('you are not cool')
+    elif 10 < love_for_python < 50
+        for i in range(5):
+            print('Thank you!')
+    if love_for_python > 50
+        for i in range(love_for_python):
+            for i in range(2):
+                print('Python love you twice more than that')
+
+~~~~
 ## Python String
 
 Some common string operations
+In python string's are immutable
+*Slicing string*
+~~~~
+var1 = "Python is awesome"
+print("var1[0]:",var1[0])
+print("var1[1:5]:",var1[1:5])
+~~~~
+*contains*
+~~~~
+var1 = 'Guido van Rossum'
+print('van' in var1)
+print('Gandhi' not in var1)
+~~~~
+*other major string functions*
+~~~~
+fact = 'java is older than python'
+fact.replace('older', 'younger')
+print(":".join("Python"))	
+print(''.join(reversed(string)))
+print(word.split(' '))
 
 ~~~~
-var1 = "python is awesome"
-var2 = "does it bites"
-print ("var1[0]:",var1[0])
-print ("var2[1:5]:",var2[1:5])
-~~~~
+## immutability
+Everything in python is a object, objects can be either mutable or immutable.
+mutable objects can be modified after creation, immutable objects can't be modified.
 
-//todo
-https://www.guru99.com/learning-python-strings-replace-join-split-reverse.html
+Object type | Description | Immutable?
+--- | --- | ---
+bool | boolean value | Yes
+int | integer value | yes
+float | floating -point number | yes
+list | sequence of objects | no
+tuple | sequence of objects | yes
+str | character string | no
+set | unordered set of distinct objects | yes
+dict | key value pair map | no
 
 ## list
-//Todo
 
-## dictionary
-//Todo
+*creation*
+Can be created by two ways
+~~~~
+my_list = []
+my_list = list()
+my_list = [1, 2, 3]
+my_list2 = ["a", "b", "c"]
+my_list3 = ["a", 1, "Python", 5]
+my_nested_list = [[1, 2, 3], ['a', 'b', 'c']]
+~~~~
+
+*common list operations*
+
+~~~~
+my_list = [1, 2, 3]
+my_list2 = ["a", "b", "c"]
+combo_list = my_list + my_list2
+alpha_list = [34, 23, 67, 100, 88, 2]
+sorted_list = alpha_list.sort()
+alpha_list[0:3]
+~~~~
 
 ## tuples
-//todo
+
+*common tuple operations*
+
+~~~~
+my_tuple = (1, 2, 3, 4, 5)
+my_tuple[0:3]
+another_tuple = tuple()
+abc = tuple([1, 2, 3])
+abc_list = list(abc)
+~~~~
+## dictionary
+
+*common dictionary operations*
+
+~~~~
+my_dict = {}
+another_dict = dict()
+my_other_dict = {"one":1, "two":2, "three":3}
+my_other_dict["one"]
+my_dict = {"name":"Mike", "address":"123 Happy Way"}
+my_dict["name"]
+"name" in my_dict
+my_dict.keys()
+~~~~
 
 ## Set
-//todo
+*Common set operations*
+
+~~~~
+normal_set = set(["a", "b","c"]) 
+~~~~
+
+## Iterating python collections
+
 
 ## python modules
 

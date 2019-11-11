@@ -341,3 +341,9 @@ normal_set = set(["a", "b","c"])
 ## python modules
 
 //Todo continue and pass statements
+
+
+## Exercises
+
+* How to do all common set operations using python
+

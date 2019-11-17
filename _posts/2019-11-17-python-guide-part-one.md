@@ -206,7 +206,7 @@ For checking multiple expressions, we can use elif statement in python.
 ~~~~
 x = 10;
 if x > 10 : 
-    print('x is greater than 10)
+    print('x is greater than 10')
 elif x == 10:
     print('x is equal to 10')
 else : 

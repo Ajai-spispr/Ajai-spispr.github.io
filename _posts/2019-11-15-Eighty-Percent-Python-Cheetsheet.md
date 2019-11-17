@@ -7,13 +7,13 @@ categories: blog programming python
 
 # Python programming language
 
-Python is a general purpose object oriented programming language created by Guido Van Rossum. It is known for its
+Python is a general-purpose object-oriented  programming language created by Guido Van Rossum. It is known for its
 * Readable and Maintainable Code
 * Friendliness to beginners
 * Simplified software development
-* Support to multiple programming paradigams like 
+* Support to multiple programming paradigms like  
 
-This guide is part one of my python programming guide series. The intened audience are the people who are already familiar with a programming language and quickly want to learn Python. This guide can also used as a quick refresher, as I tried to cover the essential Python features.
+This guide is part one of my python programming guide series. The intened audience are the people who are already familiar with a programming language and quickly want to learn Python. This guide can be used as a quick refresher, as I tried to cover the essential Python features.
 
 ## Hello World
 
@@ -27,7 +27,7 @@ print('Hello World") # Hello World
 
 ## Expression and Statement
 
-Expressions are something which evalutes to a value.
+Expressions are something which evaluates to a value.
 ~~~~
 # 10 + 3 is a expression as it evaluates to 13
 10 + 3 #13 
@@ -35,7 +35,7 @@ Expressions are something which evalutes to a value.
 
 Statements are comprised of expressions and they do some action.
 ~~~~
-x = 10 + 3 //This is a statement, beacuse the expression is evaluated and assigned to variable x
+x = 10 + 3 //This is a statement, because the expression is evaluated and assigned to variable x
 ~~~~
 
 ## Comments 
@@ -52,15 +52,15 @@ Docstrings are python way of documenting the code. They are also ignored by the 
 Most of python dev tools render docstring as help text.
 
 ~~~~~
-def checkForPalliandrome(phrase):
+def checkForpalindrome(phrase):
     '''
-    Checks if a phrase is a palliandrome 
+    Checks if a phrase is a palindrome  
 
     parameters:
     phrase (string): phrase to check
 
     returns : 
-    0 -> if the phrase is palliandrome
+    0 -> if the phrase is palindrome
     -1 -> if it is not 
     '''
     return phrase.find(phrase[::-1])
@@ -68,9 +68,9 @@ def checkForPalliandrome(phrase):
 
 ## Variables
 
-Variable is a reserved memory locataion to store values.
+Variable is a reserved memory location to store values.
 Python is a dynamically typed language so a variable can hold a variable of different type than the one it is initiated with.
-Since it is a interpreted language, it won't know the type of a variable untill the code is run.
+Since it is a interpreted language, it won't know the type of a variable until the code is run.
 
 ~~~~
 a = 100
@@ -157,7 +157,7 @@ In python we can even override the function of a operator. we will see that in l
 
 Apart form boolean values 'True' and 'False', python evaluates certain values as 'True' and 'False'.
 
-Truthy and falsy values are syntactic sugar in python, which helps us write elegant code. We can figure out wheather a code expression evaluates to truth or false by using bool() function 
+Truthy and falsy values are syntactic sugar in python, which helps us write elegant code. We can figure out whether a code expression evaluates to truth or false by using bool() function 
 
 ~~~~
 bool('ajai')#True
@@ -236,11 +236,11 @@ for i in range(2, 20):
     print(i)
 ~~~~
 
-Python dosen't supports do while loops which most of the languages support.
+Python doesn’t supports do while loops which most of the languages support.
 
 ## functions
 
-Function is a group of related statements, which perform a specific task. Functions make our code modular and managable.
+Function is a group of related statements, which perform a specific task. Functions make our code modular and manageable.
 Functions which don't have a return type are called procedures in python.
 
 *Without  return type*
@@ -252,7 +252,7 @@ def print_hello_world():
 #function with parameter
 def function_without_return_value(param):
     ''' 
-    functions that dosen't have a return type are 
+    functions that doesn’t have a return type are 
     called as procedures 
     '''
     print("param for this function is " + param)
@@ -262,9 +262,9 @@ def function_without_return_value(param):
 def function_with_return_type(param):
     return param *2
 ~~~~
-## Intendation
+## indentation
 
-Python uses intendation to to organize code blocks. A code block (body of a function, loop, if statement) starts with a intendation and ends with a first unintended line. The amount of intendation for the code is upto you. But be consistent with your intendation, otherwise python interpretor will give intendation error.
+Python uses indentation to organize code blocks. A code block (body of a function, loop, if statement) starts with a indentation and ends with a first unintended line. The amount of indentation for the code is up to you. But be consistent with your indentation, otherwise python interpreter will give indentation error.
 
 ~~~~
 block

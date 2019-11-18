@@ -151,6 +151,20 @@ print(div2) #2
 print(mod)  #1
 ~~~~
 
+~~~~
+# Examples of logical operators
+# python uses 'and' and 'or' instead of && and ||
+
+x = 4 
+y = 7
+
+if x == 4 and y == 7:
+  print('python and statement')
+
+if x == 5 or y ==7:
+  print('python or statement')
+~~~~
+
 In python we can even override the function of a operator. we will see that in later blog posts.
 
 ## Truthy and falsy values

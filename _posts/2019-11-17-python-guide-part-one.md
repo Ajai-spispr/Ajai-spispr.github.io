@@ -22,7 +22,7 @@ In Python we can print a string literal using print function.
 Python string values should be enclosed in a double or single quote.
 ~~~~
 print("Hello World") # Hello World
-print('Hello World") # Hello World
+print('Hello World') # Hello World
 ~~~~
 
 ## Expression and Statement
@@ -43,7 +43,7 @@ Comments in code help us in documentation and readability. In Python introducing
 ~~~~~
 print('This is not a comment')
 #print('This is a comment')
-print'"# This won't get commented')
+print("# This won't get commented")
 ~~~~~
 
 ## *Docstring*
@@ -201,7 +201,7 @@ else:
 '''
 x = 10;
 if x > 10 : 
-    print('x is greater than 10)
+    print('x is greater than 10')
 else : 
     print('x is lesser than 10')
 
@@ -237,7 +237,7 @@ Python supports while and for loops.
 ~~~~
 count = 0
 while (count < 9):
-   print('The count is ' + count)
+   print('The count is ' + str(count))
    count = count + 1
 ~~~~
 

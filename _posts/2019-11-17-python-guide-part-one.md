@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python guide part-one"
+title:  "Python Guide part-one"
 date:   2019-11-17 09:25:54 +0530
 categories: blog programming python
 ---
@@ -18,8 +18,8 @@ This guide is part one of my python programming guide series. The intened audien
 ## Hello World
 
 ### *Hello world*
-In python we can print a string literal using print function. 
-python string values should be enclosed by a double or single quote.
+In Python we can print a string literal using print function. 
+Python string values should be enclosed in a double or single quote.
 ~~~~
 print("Hello World") # Hello World
 print('Hello World") # Hello World
@@ -39,7 +39,7 @@ x = 10 + 3 //This is a statement, because the expression is evaluated and assign
 ~~~~
 
 ## Comments 
-Comments in code help us in documentation and readability. In python introducing '#' symbol makes all the statement towards its right non executable.
+Comments in code help us in documentation and readability. In Python introducing '#' symbol makes all the statement towards its right non executable.
 ~~~~~
 print('This is not a comment')
 #print('This is a comment')
@@ -48,8 +48,8 @@ print'"# This won't get commented')
 
 ## *Docstring*
 
-Docstrings are python way of documenting the code. They are also ignored by the python like comments.
-Most of python dev tools render docstring as help text.
+Docstrings are Python's way of documenting the code. Which are ignored like comments.
+Most of the Python dev tools render docstring as help text.
 
 ~~~~~
 def checkForpalindrome(phrase):
@@ -69,8 +69,8 @@ def checkForpalindrome(phrase):
 ## Variables
 
 Variable is a reserved memory location to store values.
-Python is a dynamically typed language so a variable can hold a variable of different type than the one it is initiated with.
-Since it is a interpreted language, it won't know the type of a variable until the code is run.
+Python is a dynamically typed language so a variable can hold a different type of value than the one it is initiated with.
+Since it is an interpreted language, it won't know the type of a variable until the code is run.
 
 ~~~~
 a = 100
@@ -81,7 +81,7 @@ print(a) # Dynamically typed
 
 ## Datatypes
 
-Data types represent the type of data stored in a python variable. Everything in python are objects, so we can say datatype is nothing but the class name.
+Data types represent the type of data stored in a Python variable. Everything in Python are objects, so we can say data type is nothing but the class name.
 
 Some of the most common data types are listed below.
 
@@ -108,13 +108,14 @@ bool_false = False #case sensitive
 type(bool_false) #bool
 ~~~~
 *No Value*
-In python no value can be denoted by 'None" object. This is similar to null in popular programming languages.
+
+In Python, No value can be denoted by "None" object. This is similar to null in popular programming languages.
 ~~~~
 no_value = None
 type(no_value) #NoneType
 ~~~~
 
-Python has lot other data types as well. some are little complex like complex numbers.
+Python has many other data types as well, for example it even support complex numbers.
 ~~~~
 c = 5 + 3j
 type(c) #complex
@@ -122,9 +123,9 @@ print(c + 3) #8 + 3j
 ~~~~
 ## Operators 
 
-Operators are symbols programming languages use to carry out arithmetic and logical operations. 
+Operators are symbols that programming languages use to carry out arithmetic and logical operations. 
 
-Following are the most common python operators.
+Following are the most common Python operators.
 ~~~~
 # Examples of Arithmetic Operator 
 a = 9
@@ -153,7 +154,7 @@ print(mod)  #1
 
 ~~~~
 # Examples of logical operators
-# python uses 'and' and 'or' instead of && and ||
+# Python uses 'and' and 'or' instead of && and ||
 
 x = 4 
 y = 7
@@ -165,13 +166,13 @@ if x == 5 or y ==7:
   print('python or statement')
 ~~~~
 
-In python we can even override the function of a operator. we will see that in later blog posts.
+In Python we can even override the function of an operator, Which we will see in later blog posts.
 
-## Truthy and falsy values
+## Truthy and Falsy values
 
-Apart form boolean values 'True' and 'False', python evaluates certain values as 'True' and 'False'.
+Apart from the boolean values, 'True' and 'False', Python evaluates certain values to 'True' and 'False'.
 
-Truthy and falsy values are syntactic sugar in python, which helps us write elegant code. We can figure out whether a code expression evaluates to truth or false by using bool() function 
+Truthy and Falsy values are syntactic sugar in Python, which helps us write elegant code. We can figure out whether an expression evaluates to truth or false by using bool() function 
 
 ~~~~
 bool('ajai')#True
@@ -185,11 +186,11 @@ bool(None) #False
 
 ## Flow control
 
-Flow control in python helps us in making code control flow decisions.
+Flow control in Python helps us in making code control flow decisions.
 
-*If,else statements*
+*If...else statements*
 
-If statement takes a expression if the expression evaluates to a truthy value, if block is executed, otherwise else block is executed.
+The code in if block gets executed, if the expression evaluates to a truthy value. If not, the else block is executed.
 
 ~~~~
 '''
@@ -250,12 +251,13 @@ for i in range(2, 20):
     print(i)
 ~~~~
 
-Python doesn’t supports do while loops which most of the languages support.
+Python doesn’t support do...while loops which most of the languages support.
 
-## functions
+## Functions
 
-Function is a group of related statements, which perform a specific task. Functions make our code modular and manageable.
-Functions which don't have a return type are called procedures in python.
+Function is a group of related statements which perform a specific task. They make our code modular and manageable.
+
+Functions which don't have a return type are called procedures in Python.
 
 *Without  return type*
 ~~~~
@@ -276,9 +278,9 @@ def function_without_return_value(param):
 def function_with_return_type(param):
     return param *2
 ~~~~
-## indentation
+## Indentation
 
-Python uses indentation to organize code blocks. A code block (body of a function, loop, if statement) starts with a indentation and ends with a first unintended line. The amount of indentation for the code is up to you. But be consistent with your indentation, otherwise python interpreter will give indentation error.
+Python uses indentation to organize code blocks. A code block (body of a function, loop, if statement) starts with a indentation and ends with a first un-indented line. The amount of indentation for the code is up to you, but be consistent with your indentation, otherwise Python interpreter will give indentation error.
 
 ~~~~
 block
@@ -307,7 +309,7 @@ function {
 *In python*
 ~~~~
 def fn_2_demonstarte_intendation(love_for_python):
-    print('python hits two birds with a single stone')
+    print('Python hits two birds with a single stone')
     if love_for_python < 10:
         print('you are not cool')
     elif 10 < love_for_python < 50:

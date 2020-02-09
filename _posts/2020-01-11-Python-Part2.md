@@ -11,17 +11,20 @@ This is part 2 of the python guide series please go through part one first, If y
 
 ## Python String
 
-Some common string operations
+Strings are the most important and mostly used data type in any programming language. Strings are nothing but an array of unicode characters.
 
-*Slicing string*
+## Common string operations
+
+*Slicing strings*
+
 In python strings are indexed with respect to each character starting from 0. In the string "Python.", character at index 0 is "P" and character at index 6 is ".".
 The syntax for slicing string is. 
 `[Start index (included): end index (excluded)]`
 
 ~~~~
-var1 = "Python is awesome"
-print("var1[0]:",var1[0]) 
-print("var1[1:5]:",var1[1:5])
+str = "Python is awesome"
+print("str[0]:",str[0]) 
+print("str[1:5]:",str[1:5])
 ~~~~
 
 *Advanced slicing*
@@ -48,22 +51,25 @@ print('Gandhi' not in var1)
 *other major string functions*
 ~~~~
 word = "Hello world"
-print(word.index("world"))
+# To find the index of a string in another string
+word.index("world")
+# Replacing one string with another
 fact = 'java is older than python'
 fact.replace('older', 'younger')
-print(":".join("Python"))	
+#Spliting a string	
 print(word.split(' '))
 ~~~~
 
 *Triple quote string*
-If we want to use string which spans multiple line, use triple quote.
+If you want to use string which spans multiple line, use triple quote to reprasent that.
 ~~~~
 triple_quote = """Multiple line string can be created using triple quotes. Triple quotes allows to have "double-quoted" string and 'single-quoted' string in a string."""
 ~~~~
 
 ## Data structures and collections
 
-Collections in python are objects that store data. These objects are implementations of various data structures. For a beginner no need to stress on the internal data structures.
+Collections in python are objects that store data. These objects are implementations of various data structures. For a beginner no need to stress on the internals data structures.
+Before learning about collections we need to understand immutability.
 
 ## immutability
 Everything in python is a object, objects can be either mutable or immutable.
@@ -124,6 +130,8 @@ my_tuple0 = ()
 # creating a tuple with data
 my_tuple = (1, 2, 3, 4, 5)
 # typles can also hold different type of data
+my_tuple1 = (1, 2, '3', '', 5)
+#slicing a tuple
 my_tuple[0:3]
 another_tuple = tuple()
 abc = tuple([1, 2, 3])

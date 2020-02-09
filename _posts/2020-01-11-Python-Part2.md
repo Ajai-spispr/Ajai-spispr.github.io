@@ -7,11 +7,11 @@ categories: blog programming python
 
 # Python Guide - part 2
 
-This is part 2 of the python guide series please go through part one first, If you are new to this sereis.
+This is part 2 of the python guide series please go through first part, If you are new to this series.
 
 ## Python String
 
-Strings are the most important and mostly used data type in any programming language. Strings are nothing but an array of unicode characters.
+Strings are the most important and widely used data type in any programming language. Strings can be visualized as a array of characters.
 
 ## Common string operations
 
@@ -68,7 +68,7 @@ triple_quote = """Multiple line string can be created using triple quotes. Tripl
 
 ## Data structures and collections
 
-Collections in python are objects that store data. These objects are implementations of various data structures. For a beginner no need to stress on the internals data structures.
+Collections in python are objects that store data. These objects are implementations of various data structures. The internals of this data structures  are complex and interesting, but as a begineer we can use  them without knowing the details.
 Before learning about collections we need to understand immutability.
 
 ## immutability
@@ -89,6 +89,8 @@ dict | key value pair map | no
 
 
 ## list
+
+A  list datastructure is used to store ordered squence of hetrogeneous elements. It is mutable, and used to store data dynamically.
 
 *creation*
 
@@ -120,7 +122,15 @@ sorted_list = alpha_list.sort()
 alpha_list[0:3]
 ~~~~
 
+*When to use a list*
+* Python don't support arrays natively, so whenever you need an array
+* When you want a flexible datastructue to store data, you can insert, delete, update in any index 
+* When you want to store hetrogeneous data
+* when you want to store duplicate values.
+
 ## tuples
+
+Tuples  is a immutable datastructure used to store sequence of hetrogenous elements. Once they are created they cannot be modified.
 
 *common tuple operations*
 
@@ -137,10 +147,25 @@ another_tuple = tuple()
 abc = tuple([1, 2, 3])
 abc_list = list(abc)
 ~~~~
+
+*tuples vs list*
+* tuples have fixed size, whereas lists are dynamic
+* tuples don't have methods to append or modify elements
+* tuples don't have methods to remove elements
+* we can still find a element in tuple as, it dosent change the objects state.
+* tuples are faster than list, they are optimised internall for searching and iteration.
+* tuples can be used safely in multi threaded application without data loss, using lists here with care.
+
+*When to use a tuple*
+* When you want to store a sequence of data which dosent change.
+* tuples can be used as dictionary keys(Which we will see below).
+* you need to search through a sequence faster.
+
 ## dictionary
 
-*common dictionary operations*
+Dictionaries in python is a unordered collection of key and values.
 
+*common dictionary operations*
 ~~~~
 my_dict = {}
 another_dict = dict()
@@ -152,7 +177,14 @@ my_dict["name"]
 my_dict.keys()
 ~~~~
 
+*When to use a dictionary*
+* dict associates with each key a value, which enables a convenient way to search for values.
+* retriving values and modifying values are blazingly fast.
+
 ## Set
+
+A Set is an unordered collection data type that is iterable, mutable and has no duplicate elements.
+
 *Common set operations*
 
 ~~~~
@@ -161,9 +193,18 @@ normal_set = set(["a", "b","c"])
 "banana" in thisset
 ~~~~
 
-## Choosing the right data structure
+*list vs set*
+* set requires items to be hashable, list doesn't.
+* set forbids duplicates, list does not.
 
-//to do
+*When to use a set*
+* To store unique values.
+
+## TypeError: unhashable type
+// to do 
+
+## Some cool slicing 
+// to do 
 
 ## Iterating python collections
 
@@ -172,7 +213,7 @@ for <var> in <iterable>:
     <statement(s)>
 ~~~~
 
-*iterating overa a list*
+*iterating over a list*
 
 ~~~~
 list = [1, 3, 5, 7, 9]
@@ -191,6 +232,36 @@ while i < length:
 for i, val in enumerate(list): 
     print (i, ",",val) 
 ~~~~
+
+*iterating over a tuple*
+
+~~~~
+T = (10,20,30,40,50)
+for var in T:
+    print (T.index(var),var)
+~~~~
+*Iterating over a set*
+~~~~
+s = {1,2,3,4}
+for var in s:
+    print(var)
+~~~~
+
+*Iterating over  a map*
+~~~~
+for key in a_dict:
+    print(key, '->', a_dict[key])
+for item in a_dict.items():
+    print(item)
+for key, value in a_dict.items():
+    print(key, '->', value)
+for key in a_dict.keys():
+    print(key)
+for value in a_dict.values():
+    print(value)
+~~~~
+//Todo iterating a map
+//iterating a tuple and a set
 
 ## Exception Handling
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python guide part Two"
+title:  "Python guide part two"
 date:   2020-02-11 15:25:54 +0530
 categories: blog programming python
 ---

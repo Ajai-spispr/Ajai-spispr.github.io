@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Python guide series Two"
+title:  "Python guide part Two"
 date:   2020-02-11 15:25:54 +0530
 categories: blog programming python
 ---
 
-# Python Guide - part 2
+
 
 This is part 2 of the python guide series please go through [first part](http://www.ajraj.me/blog/programming/python/2019/11/17/python-guide-part-one.html), If you are new to this series.
 
@@ -19,6 +19,7 @@ Strings are the most important and widely used data type in any programming lang
 
 In python, strings are indexed with respect to each character starting from 0. In the string "Python", character at index 0 is "P" and character at index 5 is 'n'.
 The syntax for slicing string is. 
+
 `[Start index (included): end index (excluded)]`
 
 ~~~~

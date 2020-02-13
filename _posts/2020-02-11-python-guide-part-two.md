@@ -269,9 +269,9 @@ for i, val in enumerate(list):
 *Iterating over a tuple*
 
 ~~~~
-T = (10,20,30,40,50)
-for var in T:
-    print (T.index(var),var)
+tup = (10,20,30,40,50)
+for var in tup:
+    print (tup.index(var),var)
 ~~~~
 *Iterating over a set*
 ~~~~

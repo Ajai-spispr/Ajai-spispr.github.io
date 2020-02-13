@@ -229,7 +229,8 @@ The syntax for slicing operater is `itr[start:end:step]`
 lis = [0, 1, 2, 3]
 lis[::2] = ['zero', 'Two']
 # we can also delete a part of list
-
+lis = [0, 1, 2, 3]
+del lis[::2]
 ~~~~
 
 ## Iterating python collections

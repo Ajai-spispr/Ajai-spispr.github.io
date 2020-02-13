@@ -226,7 +226,8 @@ The syntax for slicing operater is `itr[start:end:step]`
 #negative step argument can reverse the sequence
 "1234"[::-1] "4321"
 #slicing can also be used to replace multiple items
-"1234"[::2] = ("one","three") #"one2three4"
+lis = [0, 1, 2, 3]
+lis[::2] = ['zero', 'Two']
 # we can also delete a part of list
 
 ~~~~

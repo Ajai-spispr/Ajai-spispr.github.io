@@ -251,8 +251,8 @@ for i in list:
 # If you want the index of elements in the loop
 length = len(list)
 for i in range(length): 
-    print('index is ' + str(i)) 
-    print('value is ' + str(list[i]))
+    print('index is ' , i) 
+    print('val is ',list[i])
 
 # while loop
 while i < length: 

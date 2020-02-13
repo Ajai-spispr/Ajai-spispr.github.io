@@ -57,7 +57,7 @@ str = "Hello world"
 print(str.index("world"))
 # Replacing one string with another
 fact = 'java is older than python'
-fact.replace('older', 'younger')
+fact = fact.replace('older', 'younger')
 print(fact)
 #Spliting a string	
 print(str.split(' '))

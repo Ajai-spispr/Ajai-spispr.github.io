@@ -86,7 +86,7 @@ int | integer value | yes
 float | floating -point number | yes
 list | sequence of objects | no
 tuple | sequence of objects | yes
-str | character string | yes
+str | character string | no
 set | unordered set of distinct objects | yes
 dict | key value pair map | no
 
